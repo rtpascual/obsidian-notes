@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md"
               }
             }
           }
@@ -127,12 +127,12 @@
   },
   "active": "7ff26cb7dc46441b",
   "lastOpenFiles": [
+    "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md",
     "README.md",
     "3. Resources/Personal Knowledge Management/PARA Notes.md",
     "4. Archive/PARA/Methodology.md",
     "3. Resources/Personal Knowledge Management/Note Template.md",
     "Untitled.md",
-    "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md",
     "2. Areas/Complete LeetCode Easy/LeetCode - 1. Two Sum/Two Sum - Question.md",
     "2. Areas/Complete LeetCode Easy/LeetCode - 1. Two Sum/Two Sum - Solution 1.md",
     "2. Areas/Complete LeetCode Easy/LeetCode - 1. Two Sum/Two Sum - Solution 2.md",
