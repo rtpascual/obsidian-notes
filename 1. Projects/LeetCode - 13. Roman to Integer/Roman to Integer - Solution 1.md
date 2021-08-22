@@ -25,19 +25,19 @@ class Solution:
         num = prev = 0
         
         for i in s[::-1]:
-            if prev > roman[i]:
-                num -= roman[i]
-            else:
+            if roman[i] >= prev:
                 num += roman[i]
+            else:
+                num -= roman[i]
             prev = roman[i]
         
         return num
 ```
 
 ## Result
-Runtime: 48 ms, faster than 63.38% of Python3 online submissions for Roman to Integer.
+Runtime: 40 ms, faster than 92.53% of Python3 online submissions for Roman to Integer.
 
-Memory Usage: 14.4 MB, less than 27.49% of Python3 online submissions for Roman to Integer.
+Memory Usage: 14.3 MB, less than 59.31% of Python3 online submissions for Roman to Integer.
 
 ### Input
 ```md
