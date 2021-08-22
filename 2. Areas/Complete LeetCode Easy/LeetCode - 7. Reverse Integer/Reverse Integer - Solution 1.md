@@ -26,9 +26,9 @@ class Solution:
 ```
 
 ## Result
-Runtime: 32 ms, faster than **68.30%** of Python3 online submissions for Reverse Integer.
+Runtime: 32 ms, faster than 68.30% of Python3 online submissions for Reverse Integer.
 
-Memory Usage: 14 MB, less than **91.13%** of Python3 online submissions for Reverse Integer.
+Memory Usage: 14 MB, less than 91.13% of Python3 online submissions for Reverse Integer.
 
 ### Input
 ```md

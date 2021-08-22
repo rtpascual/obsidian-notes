@@ -24,9 +24,9 @@ class Solution:
 ```
 
 ## Result
-Runtime: 56 ms, faster than **88.25%** of Python3 online submissions for Two Sum.
+Runtime: 56 ms, faster than 88.25% of Python3 online submissions for Two Sum.
 
-Memory Usage: 15.2 MB, less than **54.17%** of Python3 online submissions for Two Sum.
+Memory Usage: 15.2 MB, less than 54.17% of Python3 online submissions for Two Sum.
 
 ### Input
 ```md

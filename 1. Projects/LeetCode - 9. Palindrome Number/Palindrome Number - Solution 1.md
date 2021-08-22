@@ -19,9 +19,9 @@ class Solution:
 ```
 
 ## Result
-Runtime: 60 ms, faster than **65.63%** of Python3 online submissions for Palindrome Number.
+Runtime: 60 ms, faster than 65.63% of Python3 online submissions for Palindrome Number.
 
-Memory Usage: 14.2 MB, less than **49.36%** of Python3 online submissions for Palindrome Number.
+Memory Usage: 14.2 MB, less than 49.36% of Python3 online submissions for Palindrome Number.
 
 ### Input
 ```md
