@@ -4,7 +4,7 @@ aliases:
 ---
 ```
 
-Tags: [[str Function|str]] [[abs Function|abs]] [[strip Function|strip]] [[String Slice]]
+Tags:
 
 # Reverse Integer - Solution 1
 Turned the signed integer into a string, strip leading 0s, and reverse the string then convert back to an integer. Check if `output` is within bounds or return 0. If `x` was negative, multiply `output` with -1.
