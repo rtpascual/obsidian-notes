@@ -51,6 +51,6 @@ Once you have the folder hierarchy done, you want to copy it across all your oth
 - You do _not_ have to do every single folder for your local files and cloud service, create the subfolders are you need them, **but** you need to have a full set up in your notes to act as the main reference for the others
 
 
-# Next stop [[Workflow]]
+# Next stop [[PARA Workflow]]
 
 

@@ -4,7 +4,7 @@ aliases: [PARA, P.A.R.A]
 ---
 ```
 
-Tags: [[Workflow|PARA Workflow]]
+Tags: [[PARA Outline]]
 
 # PARA Notes
 
@@ -23,7 +23,7 @@ Tags: [[Workflow|PARA Workflow]]
 A project is something with a goal and a deadline that requires more than 1 step to complete
 A project packet is an intermediate step before the completion that is itself a “thing” made and that could be reused or serves as a snapshot of progress
 
-## [[Workflow]]
+## [[PARA Workflow|Workflow]]
 ### Projects flow
 Project -> Areas -> Resources -> Archive
 

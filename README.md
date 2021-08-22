@@ -1,7 +1,7 @@
 # Obsidian Notes
 Repository for syncing my personal notes made with `Obsidian`.
 
-Notes follow P.A.R.A system. Trying to keep folders fairly shallow, only up to 3 levels (ex. Projects --> Folder 1 --> Folder 2 --> Folder 3).
+Notes follow P.A.R.A system. Trying to keep folders fairly shallow, only up to 2 levels (ex. Projects --> Folder 1 --> Notes).
 
 ## Note Sections
 Deeper dive into what is placed in each folder of the P.A.R.A system.

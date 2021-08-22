@@ -10,12 +10,12 @@ Tags:
 
 ## Definition 
 - ![[PARA Notes#Definitions]]
-## Methodology
+## [[PARA Methodology|Methodology]]
 - Actionnability
 - Fluidity
 - Project based
 - Constraint
-## [[Workflow]]
+## [[PARA Workflow|Workflow]]
 - ![[PARA Notes#Workflow]]
 ## Next steps
 - Tiago's blog
