@@ -6,7 +6,7 @@ aliases:
 
 Tags:
 
-# Two Sum - Question
+# Two Sum
 
 Given an array of integers `nums` and an integer `target`, return _indices of the two numbers such that they add up to `target`_.
 
