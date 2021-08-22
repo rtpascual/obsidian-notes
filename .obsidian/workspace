@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "d38f4c9a015e8b23",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ff26cb7dc46441b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73ced13b44096afe",
+    "type": "split",
+    "children": [
+      {
+        "id": "662899602da8de1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50f17ee120bfd066",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e998bb443318326e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "85020a31927fceee",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e186ed77e501e85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69bb0b2cdc67bb75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "50fc43ac57d48cd6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0c9f8b280391663a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "76254f61d12fa657",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8cf348f7c75f6d2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "7ff26cb7dc46441b",
+  "lastOpenFiles": [
+    "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Solution 1.md",
+    "2. Areas/Complete LeetCode Easy/LeetCode - 1. Two Sum/Two Sum - Question.md",
+    "2. Areas/Complete LeetCode Easy/LeetCode - 1. Two Sum/Two Sum - Solution 1.md",
+    "2. Areas/Complete LeetCode Easy/LeetCode - 1. Two Sum/Two Sum - Solution 2.md",
+    "2. Areas/Learning Python/Statements/If Statements.md",
+    "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer - Question.md",
+    "4. Archive/LeetCode - 1. Two Sum/Two Sum - Solution 2.md",
+    "4. Archive/LeetCode - 1. Two Sum/Two Sum - Solution 1.md",
+    "1. Projects/LeetCode - 7. Reverse Integer/Untitled.md",
+    "1. Projects/LeetCode - 7. Reverse Integer/Reverse Integer Question.md"
+  ]
+}
