@@ -4,10 +4,12 @@ aliases:
 ---
 ```
 
-Tags:
+Tags: 
 
 # Longest Common Prefix - Solution 1
-Compared each character across every `str` in `strs`, if it matches the character in the same index of first `str` then set `prefix`. Break out of loops as soon as there is no match.
+Made use of `zip` function to unzip `strs` then enumerate to get index. Loop through each character of `str` in `strs`.
+
+- case 1: 
 
 ```python
 class Solution:
