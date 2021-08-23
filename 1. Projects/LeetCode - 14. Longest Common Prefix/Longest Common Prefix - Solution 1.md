@@ -12,20 +12,17 @@ Compared each character across every `str` in `strs`, if it matches the characte
 ```python
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
-        prefix = ""
+        if not len(strs):
+            return ''
         
-        # Split characters in first str in strs
-        for i, c in enumerate(list(strs[0])):
-            for s in strs[1:]: # Loop through each str in strs, skip first str
-                if c == s[i]:
-                    prefix = s[0:i]
-                else:
-                    break
-            else:
-                continue
-            break
+        i = 0
         
-        return prefix
+        for i, c in enumerate(zip(*strs),1):
+            if len(set(c)) != 1:
+                i -= 1
+                break
+        
+        return strs[0][:i]
 ```
 
 ## Result
