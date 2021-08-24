@@ -4,7 +4,7 @@ aliases:
 ---
 ```
 
-Tags: [[For Statements|For Loop]] [[Range Function|Range]] [[Len Function|Len]] [[If Statements|If]]
+Tags: [[For Statements|For Loop]], [[Range Function|Range]], [[Len Function|Len]], [[If Statements|If]]
 
 # Two Sum - Solution 1
 Brute force checking each element in `nums` with each other until they add up to `target`.

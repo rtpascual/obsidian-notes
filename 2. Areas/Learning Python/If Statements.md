@@ -7,7 +7,7 @@ aliases:
 Tags:
 
 # If Statements
-Unlike in C#, there is no use of parenthesis unless having multiple conditions.
+Unlike in C#, there is no use of parenthesis and can be added for more readability for multiple conditions.
 
 ##### Example
 ```python
@@ -21,4 +21,6 @@ if value == 2:
 # Return value + num if value equal to 2 and num equal to 3
 if (value == 2) and (num == 3):
 	return value + num
+	
+# Another example
 ```

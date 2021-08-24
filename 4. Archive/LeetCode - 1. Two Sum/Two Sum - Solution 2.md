@@ -4,7 +4,7 @@ aliases:
 ---
 ```
 
-Tags: [[For Statements|For Loop]] [[Enumerate Function]] [[Hash Map]] [[If Statements|If]]
+Tags: [[For Statements|For Loop]], [[Enumerate Function]], [[Hash Map]], [[If Statements|If]]
 
 # Two Sum - Solution 2
 Different solution using a [[Hash Map|hash map]] to iterate through `nums` once.
