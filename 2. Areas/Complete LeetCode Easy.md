@@ -14,3 +14,5 @@ Goal is to complete all LeetCode easy questions before moving on to medium.
 - [[Reverse Integer]]
 - [[Palindrome Number]]
 - [[Roman to Integer]]
+- [[Longest Common Prefix]]
+- [[Valid Parentheses]]
