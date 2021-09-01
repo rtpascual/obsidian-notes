@@ -41,7 +41,7 @@ To get some additional practice with front-end development, you can [work on thi
 -   [RSS channel element](https://validator.w3.org/feed/docs/rss2.html#requiredChannelElements)
 
 ## Solution
-Coded using []
+[Github repository](https://github.com/rtpascual/rss-feed-terminal-python)
 
 ### Sample URL
 `https://feeds.simplecast.com/54nAGcIl`
