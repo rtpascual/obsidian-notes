@@ -39,3 +39,9 @@ To get some additional practice with front-end development, you can [work on thi
     -   Python: [https://pypi.org/project/feedparser/](https://pypi.org/project/feedparser/)
 -   [How do RSS feeds work?](https://rss.com/blog/how-do-rss-feeds-work/)
 -   [RSS channel element](https://validator.w3.org/feed/docs/rss2.html#requiredChannelElements)
+
+## Solution
+Add link to GitHub solution.
+
+### Sample URL
+`https://feeds.simplecast.com/54nAGcIl`
