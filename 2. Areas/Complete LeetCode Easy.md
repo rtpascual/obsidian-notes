@@ -17,3 +17,4 @@ Goal is to complete all LeetCode easy questions before moving on to medium.
 - [[Longest Common Prefix]]
 - [[Valid Parentheses]]
 - [[Merge Two Sorted Lists]]
+- [[Remove Duplicates from Sorted Array]]
