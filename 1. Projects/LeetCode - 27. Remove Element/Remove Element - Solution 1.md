@@ -7,21 +7,37 @@ aliases:
 Tags:
 
 # Remove Element - Solution 1
-Short description of solution
+Initialize `k` as a pointer to keep track of the index where the first `k` elements that do not 
 
 ```python
-Enter code here
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        k = 0
+        
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[k] = nums[i]
+                k += 1
+        return k
 ```
 
 ## Result
-Runtime and memory stats.
+Runtime: 31 ms, faster than 76.74% of Python3 online submissions for Remove Element.
+
+Memory Usage: 14.2 MB, less than 77.00% of Python3 online submissions for Remove Element.
 
 ### Input
 ```md
-Inputs for solution
+[3,2,2,3]  
+3  
+
+[0,1,2,2,3,0,4,2]  
+2
 ```
 
 ### Output
 ```md
-Outputs for solution
+[2,2]  
+
+[0,1,3,0,4]
 ```
