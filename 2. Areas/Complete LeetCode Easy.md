@@ -20,3 +20,5 @@ Goal is to complete all LeetCode easy questions before moving on to medium.
 - [[Remove Duplicates from Sorted Array]]
 - [[Remove Element]]
 - [[Implement strStr()]]
+- [[LeetCode Study Plan - Data Structure I#217 Contains Duplicate|Contains Duplicate]]
+- [[LeetCode Study Plan - Data Structure I#53 Maximum Subarray|Maximum Subarray]]

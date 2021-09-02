@@ -74,7 +74,7 @@ A **subarray** is a **contiguous** part of an array.
 **Follow up:** If you have figured out the `O(n)` solution, try coding another solution using the **divide and conquer** approach, which is more subtle.
 
 ### Solution
-
+Have two integers `n` and `total` set to the first element of `nums`. Loop through `nums` starting from the second element. Get the max value between the current element of `nums` in the iteration or `n` plus the current element of `nums` then get the max value between `n` or `total`.
 
 ```python
 class Solution:
@@ -86,3 +86,7 @@ class Solution:
             total = max(total, n)
         return total
 ```
+
+Runtime: 64 ms, faster than 76.53% of Python3 online submissions for Maximum Subarray.
+
+Memory Usage: 15 MB, less than 85.56% of Python3 online submissions for Maximum Subarray.
