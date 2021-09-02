@@ -18,3 +18,4 @@ Goal is to complete all LeetCode easy questions before moving on to medium.
 - [[Valid Parentheses]]
 - [[Merge Two Sorted Lists]]
 - [[Remove Duplicates from Sorted Array]]
+- [[Remove Element]]
