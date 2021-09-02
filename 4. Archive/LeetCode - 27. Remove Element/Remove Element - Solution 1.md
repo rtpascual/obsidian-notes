@@ -7,7 +7,7 @@ aliases:
 Tags:
 
 # Remove Element - Solution 1
-Initialize `k` as a pointer to keep track of the index where the first `k` elements that do not 
+Initialize `k` as a pointer to keep track of the index where the first `k` elements that do not match `val` will go. Loop through the length of `nums` and place `k` elements to the front of `nums` then increment `k`.
 
 ```python
 class Solution:
