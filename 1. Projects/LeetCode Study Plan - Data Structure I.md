@@ -9,6 +9,8 @@ Tags:
 # LeetCode Study Plan - Data Structure I
 In computer science, a data structure is a way to store and organize data. During the computer programming process, identifying and using the appropriate data structure is an important task as it can improve the overall efficiency of the algorithm. In large-scale systems, choosing the most suitable data structure directly impacts the difficulty of program design and the final quality and performance.
 
+---
+
 ## 217. Contains Duplicate
 Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
 
@@ -44,6 +46,8 @@ class Solution:
 Runtime: 120 ms, faster than 62.45% of Python3 online submissions for Contains Duplicate.
 
 Memory Usage: 19.9 MB, less than 87.10% of Python3 online submissions for Contains Duplicate.
+
+---
 
 ## 53. Maximum Subarray
 Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return _its sum_.
@@ -91,8 +95,12 @@ Runtime: 64 ms, faster than 76.53% of Python3 online submissions for Maximum Su
 
 Memory Usage: 15 MB, less than 85.56% of Python3 online submissions for Maximum Subarray.
 
+---
+
 ## 1. Two Sum
 See [[Two Sum]].
+
+---
 
 ## 88. Merge Sorted Array
 You are given two integer arrays `nums1` and `nums2`, sorted in **non-decreasing order**, and two integers `m` and `n`, representing the number of elements in `nums1` and `nums2` respectively.
@@ -134,7 +142,8 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 **Follow up:** Can you come up with an algorithm that runs in `O(m + n)` time?
 
 ### Solution
-First we only perform any logic if `nums2` has length > 0. Then loop through starting from `nums1[m]` and insert elements from `nums2`.
+First we only perform any logic if `nums2` has length > 0. Then loop through starting from `nums1[m]` and insert elements from `nums2`. Finish the solution by using sort on `nums1`.
+
 ```python
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
