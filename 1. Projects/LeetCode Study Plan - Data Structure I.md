@@ -134,7 +134,7 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 **Follow up:** Can you come up with an algorithm that runs in `O(m + n)` time?
 
 ### Solution
-
+First we only perform any logic if `nums2` has length > 0. Then loop through starting from `nums1[m]` and insert elements from `nums2`.
 ```python
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
