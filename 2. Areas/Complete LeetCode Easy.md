@@ -10,7 +10,6 @@ Tags:
 Goal is to complete all LeetCode easy questions before moving on to medium.
 
 ## List of Questions
-- [[LeetCode Study Plan - Data Structure I#217 Contains Duplicate|Contains Duplicate]]
 - [x] [[Two Sum]]
 - [x] [[Reverse Integer]]
 - [x] [[Palindrome Number]]
@@ -52,221 +51,51 @@ Goal is to complete all LeetCode easy questions before moving on to medium.
 - [ ] [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title)
 - [ ] [169. Majority Element](https://leetcode.com/problems/majority-element)
 - [ ] [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number)
-
-[](https://leetcode.com/problems/excel-sheet-column-number/solution)
-
-58.1%
-
-Easy
-
-[172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)
-
-[](https://leetcode.com/problems/factorial-trailing-zeroes/solution)
-
-39.7%
-
-Easy
-
-[175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables)
-
-[](https://leetcode.com/problems/combine-two-tables/solution)
-
-67.0%
-
-Easy
-
-[176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary)
-
-[](https://leetcode.com/problems/second-highest-salary/solution)
-
-34.5%
-
-Easy
-
-[181. Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers)
-
-[](https://leetcode.com/problems/employees-earning-more-than-their-managers/solution)
-
-63.4%
-
-Easy
-
-[182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails)
-
-[](https://leetcode.com/problems/duplicate-emails/solution)
-
-66.8%
-
-Easy
-
-[183. Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order)
-
-[](https://leetcode.com/problems/customers-who-never-order/solution)
-
-59.8%
-
-Easy
-
-[190. Reverse Bits](https://leetcode.com/problems/reverse-bits)
-
-[](https://leetcode.com/problems/reverse-bits/solution)
-
-44.7%
-
-Easy
-
-[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)
-
-[](https://leetcode.com/problems/number-of-1-bits/solution)
-
-56.2%
-
-Easy
-
-[193. Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers)
-
-25.5%
-
-Easy
-
-[195. Tenth Line](https://leetcode.com/problems/tenth-line)
-
-32.7%
-
-Easy
-
-[196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails)
-
-[](https://leetcode.com/problems/delete-duplicate-emails/solution)
-
-48.6%
-
-Easy
-
-[197. Rising Temperature](https://leetcode.com/problems/rising-temperature)
-
-[](https://leetcode.com/problems/rising-temperature/solution)
-
-41.2%
-
-Easy
-
-[202. Happy Number](https://leetcode.com/problems/happy-number)
-
-[](https://leetcode.com/problems/happy-number/solution)
-
-52.0%
-
-Easy
-
-[203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)
-
-[](https://leetcode.com/problems/remove-linked-list-elements/solution)
-
-40.6%
-
-Easy
-
-[204. Count Primes](https://leetcode.com/problems/count-primes)
-
-[](https://leetcode.com/problems/count-primes/solution)
-
-32.8%
-
-Easy
-
-[205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
-
-[](https://leetcode.com/problems/isomorphic-strings/solution)
-
-41.5%
-
-Easy
-
-[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
-
-[](https://leetcode.com/problems/reverse-linked-list/solution)
-
-67.4%
-
-Easy
-
-[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
-
-[](https://leetcode.com/problems/contains-duplicate/solution)
-
-58.3%
-
-Easy
-
-[219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
-
-[](https://leetcode.com/problems/contains-duplicate-ii/solution)
-
-39.9%
-
-Easy
-
-[225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
-
-[](https://leetcode.com/problems/implement-stack-using-queues/solution)
-
-49.7%
-
-Easy
-
-[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
-
-[](https://leetcode.com/problems/invert-binary-tree/solution)
-
-68.9%
-
-Easy
-
-[228. Summary Ranges](https://leetcode.com/problems/summary-ranges)
-
-[](https://leetcode.com/problems/summary-ranges/solution)
-
-43.7%
-
-Easy
-
-[231. Power of Two](https://leetcode.com/problems/power-of-two)
-
-[](https://leetcode.com/problems/power-of-two/solution)
-
-43.9%
-
-Easy
-
-[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
-
-[](https://leetcode.com/problems/implement-queue-using-stacks/solution)
-
-54.4%
-
-Easy
-
-[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)
-
-[](https://leetcode.com/problems/palindrome-linked-list/solution)
-
-44.0%
-
-Easy
-
-[235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
-
-[](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution)
-
-54.3%
-
-Easy
-
-[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)
-
-69.4%
-
-Easy
-
-[242. Valid Anagram](https://leetcode.com/problems/valid-anagram)
+- [ ] [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)
+- [ ] [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables)
+- [ ] [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary)
+- [ ] [181. Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers)
+- [ ] [182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails)
+- [ ] [183. Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order)
+- [ ] [190. Reverse Bits](https://leetcode.com/problems/reverse-bits)
+- [ ] [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)
+- [ ] [193. Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers)
+- [ ] [195. Tenth Line](https://leetcode.com/problems/tenth-line)
+- [ ] [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails)
+- [ ] [197. Rising Temperature](https://leetcode.com/problems/rising-temperature)
+- [ ] [202. Happy Number](https://leetcode.com/problems/happy-number)
+- [ ] [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)
+- [ ] [204. Count Primes](https://leetcode.com/problems/count-primes)
+- [ ] [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
+- [ ] [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
+- [x] [[LeetCode Study Plan - Data Structure I#217 Contains Duplicate|Contains Duplicate]]
+- [ ] [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
+- [ ] [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
+- [ ] [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
+- [ ] [228. Summary Ranges](https://leetcode.com/problems/summary-ranges)
+- [ ] [231. Power of Two](https://leetcode.com/problems/power-of-two)
+- [ ] [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
+- [ ] [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)
+- [ ] [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
+- [ ] [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)
+- [ ] [242. Valid Anagram](https://leetcode.com/problems/valid-anagram)
+- [ ] [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths)
+- [ ] [258. Add Digits](https://leetcode.com/problems/add-digits)
+- [ ] [263. Ugly Number](https://leetcode.com/problems/ugly-number)
+- [ ] [268. Missing Number](https://leetcode.com/problems/missing-number)
+- [ ] [278. First Bad Version](https://leetcode.com/problems/first-bad-version)
+- [ ] [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)
+- [ ] [290. Word Pattern](https://leetcode.com/problems/word-pattern)
+- [ ] [292. Nim Game](https://leetcode.com/problems/nim-game)
+- [ ] [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)
+- [ ] [326. Power of Three](https://leetcode.com/problems/power-of-three)
+- [ ] [338. Counting Bits](https://leetcode.com/problems/counting-bits)
+- [ ] [342. Power of Four](https://leetcode.com/problems/power-of-four)
+- [ ] [344. Reverse String](https://leetcode.com/problems/reverse-string)
+- [ ] [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
+- [ ] [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
+- [ ] [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)
+- [ ] [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square)
+- [ ] [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)
+- [ ] [383. Ransom Note](https://leetcode.com/problems/ransom-note)
+- [ ] [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)
