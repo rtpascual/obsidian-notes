@@ -243,7 +243,25 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 -   `0 <= prices[i] <= 104`
 
 ### Solution
+Pretty straightforward solution. Check for edge case of `prices` having length of 1, then set `low` to `prices[0]` then loop through `prices` starting from index 1 to set new `low` and `high` values and return `high` afterwards.
 
 ```python
-
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        if len(prices) < 2:
+            return 0
+        
+        low, high = prices[0], 0
+        
+        for price in prices[1:]:
+            if price < low:
+                low = price
+            elif price - low > high:
+                high = price - low
+        
+        return high
 ```
+
+Runtime: 988 ms, faster than 77.31% of Python3 online submissions for Best Time to Buy and Sell Stock.
+
+Memory Usage: 25 MB, less than 95.56% of Python3 online submissions for Best Time to Buy and Sell Stock.
