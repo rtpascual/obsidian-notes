@@ -296,3 +296,5 @@ If the `reshape` operation with given parameters is possible and legal, output t
 -   `1 <= m, n <= 100`
 -   `-1000 <= mat[i][j] <= 1000`
 -   `1 <= r, c <= 300`
+
+### Solution
