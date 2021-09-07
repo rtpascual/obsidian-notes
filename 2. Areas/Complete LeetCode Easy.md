@@ -7,9 +7,7 @@ aliases:
 Tags:
 
 # Complete LeetCode Easy
-Goal is to complete all LeetCode easy questions before moving on to medium.
-
-![](https://progress-bar.dev/2)
+Goal is to complete all LeetCode easy questions before moving on to medium (outside of study plans offered on LeetCode.
 
 ## List of Questions
 - [x] [[Two Sum]]
