@@ -9,6 +9,8 @@ Tags:
 # Complete LeetCode Easy
 Goal is to complete all LeetCode easy questions before moving on to medium.
 
+![](https://progress-bar.dev/2)
+
 ## List of Questions
 - [x] [[Two Sum]]
 - [x] [[Reverse Integer]]
@@ -39,7 +41,7 @@ Goal is to complete all LeetCode easy questions before moving on to medium.
 - [ ] [112. Path Sum](https://leetcode.com/problems/path-sum)
 - [ ] [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
 - [ ] [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
-- [ ] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- [x] [[LeetCode Study Plan - Data Structure I#121 Best Time to Buy and Sell Stock|Best Time to Buy and Sell Stock]]
 - [ ] [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 - [ ] [136. Single Number](https://leetcode.com/problems/single-number)
 - [ ] [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
