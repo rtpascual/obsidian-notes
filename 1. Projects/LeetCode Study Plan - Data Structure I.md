@@ -306,8 +306,6 @@ class Solution:
             return mat
         else:
             items = [y for x in mat for y in x]
-            for x in range(r):
-                print(items[x*c:((x+1)*c)])
             return [items[x*c : ((x+1)*c)] for x in range(r)]
 ```
 
