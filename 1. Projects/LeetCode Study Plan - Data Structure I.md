@@ -298,3 +298,19 @@ If the `reshape` operation with given parameters is possible and legal, output t
 -   `1 <= r, c <= 300`
 
 ### Solution
+Check for edge case to return `mat`. Unpack the matrix into a 1d list, `items`, then use slice to output `items` in the correct dimensions based on `r` and `c`.
+```python
+class Solution:
+    def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
+        if r * c != len(mat) * len(mat[0]):
+            return mat
+        else:
+            items = [y for x in mat for y in x]
+            for x in range(r):
+                print(items[x*c:((x+1)*c)])
+            return [items[x*c : ((x+1)*c)] for x in range(r)]
+```
+
+Runtime: 84 ms, faster than 89.26% of Python3 online submissions for Reshape the Matrix.
+
+Memory Usage: 15.1 MB, less than 37.36% of Python3 online submissions for Reshape the Matrix.
