@@ -16,3 +16,11 @@ Once done processing data and finding models, try to draw conclusion.
 
 Create different views for different groups based on their goals and level of detail of the data.
 
+## Data Analysis Process
+Starts by getting data, examples are your own database, web API, or file store in a different format.
+
+Data would have to be cleaned and then transformed to have it ready for analysis.
+
+Analyze the data and build statistical models and create visuals and representations.
+
+Build machine learning models, build ETL pipelines, create dashboards or reports, etc.
