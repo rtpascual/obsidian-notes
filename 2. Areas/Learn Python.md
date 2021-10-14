@@ -17,3 +17,6 @@ In order to be more comfortable with Python, try to complete various things in P
 ## Side Projects
 - [[RSS Feed Reader Terminal]]
 - [Pygame Tetris](https://github.com/rtpascual/tetris-py)
+
+## Other
+- [ ] [[Data Analysis with Python]]
