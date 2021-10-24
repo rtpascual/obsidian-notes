@@ -50,3 +50,10 @@ sales.info()
 sales.describe()
 ```
 
+Below code shows correlation between columns (red --> blue = low --> high correlation):
+```python
+fig = plt.figure(figsize=(8,8))
+plt.matshow(corr, cmap='RdBu', fignum=fig.number)
+plt.xticks(range(len(corr.columns)), corr.columns, rotation='vertical')
+plt.yticks(range(len(corr.columns)), corr.columns)
+```
