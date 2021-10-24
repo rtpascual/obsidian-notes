@@ -37,3 +37,16 @@ sales = pd.read_csv('data/sales_data.csv', parse_dates=['Date'])
 
 Dataframe is csv representation and is more enforced, columns enforce data types.
 
+Different ways to increase understanding of data set:
+
+```python
+# Find number of rows, columns
+sales.shape
+
+# See data types and non-null count of each column
+sales.info()
+
+# Returns count and statistical data for each column (mean, std, avg, min, max, etc)
+sales.describe()
+```
+
