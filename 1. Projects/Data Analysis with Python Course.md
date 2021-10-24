@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 sales = pd.read_csv('data/sales_data.csv', parse_dates=['Date'])
 ```
 
-Dataframe is csv representation and is more enforced, columns enforce data types.
+Data frame is csv representation and is more enforced, columns enforce data types.
 
 Different ways to increase understanding of data set:
 
