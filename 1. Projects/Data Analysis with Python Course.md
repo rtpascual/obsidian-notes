@@ -57,3 +57,8 @@ plt.matshow(corr, cmap='RdBu', fignum=fig.number)
 plt.xticks(range(len(corr.columns)), corr.columns, rotation='vertical')
 plt.yticks(range(len(corr.columns)), corr.columns)
 ```
+
+## Data Analysis Example B
+Following code allows to get all sales in state of Kentucky:
+```python
+sales.loc(sales['State'])
