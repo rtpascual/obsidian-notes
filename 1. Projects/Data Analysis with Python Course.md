@@ -64,7 +64,7 @@ Following code allows to get all sales in state of Kentucky:
 sales.loc(sales['State'] == 'Kentucky')
 ```
 
-loc is able to filter the data.
+loc is able to filter the data and view a subset.
 
 ### Reading data from SQL Database
 Example code gets data from SQL database in python:
