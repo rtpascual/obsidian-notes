@@ -4,7 +4,7 @@ aliases:
 ---
 ```
 
-Tags:
+Tags: [[Learn Python]]
 
 # Data Analysis with Python
 [Data Analysis with Python course](https://www.freecodecamp.org/learn/data-analysis-with-python/) from freeCodeCamp.

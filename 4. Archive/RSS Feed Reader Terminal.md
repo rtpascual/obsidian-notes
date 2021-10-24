@@ -4,7 +4,7 @@ aliases:
 ---
 ```
 
-Tags: Python, CodeMentor DevProjects
+Tags: [[Learn Python]], [[CodeMentor DevProjects]]
 
 # RSS Feed Reader
 ## Introduction
