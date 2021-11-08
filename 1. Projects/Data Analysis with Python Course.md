@@ -294,3 +294,12 @@ a[(a == 0) | (a == 1)] 			# Returns array([0, 1])
 a[(a <= 2) & (a % 2 == 0)]		# Returns array([0, 2])
 ```
 
+## NumPy Algebra and Size
+### Linear Algebra
+NumPy already contains all operations for it along with low level semantics.
+
+NumPy stores numbers with less memory as normal Python.
+
+NumPy has better performance than Python, especially when the size of objects increase.
+
+## Pandas Introduction
