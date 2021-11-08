@@ -145,4 +145,33 @@ np.array([1, 2, 3, 4], dtype=np.float) # Creates NumPy array with float instead 
 np.array([1, 2, 3, 4], dtype=int8) # Creates NumPy array with int8 instead of int64
 ```
 
-NumPy stores numbers, dates, booleans. 
+NumPy is usually used for numbers, dates, booleans in numeric processing.
+
+It is possible to create matrices with NumPy. NumPy has a lot of attributes and functions to work with multi-dimensional arrays.
+
+```python
+import numpy as np
+A = np.array([
+	[1, 2, 3],
+	[4, 5, 6]
+])
+
+A.shape # Returns (2,3)
+A.ndim # Returns 2
+A.size # Returns 6
+
+B = np.array([
+	[
+		[12, 11, 10],
+		[9, 8, 7],
+	],
+	[
+		[6, 5, 4],
+		[3, 2, 1],
+	]
+])
+
+B.shape # Returns (2, 2, 3)
+B.ndim # Returns 3
+B.size # Returns 12
+```
