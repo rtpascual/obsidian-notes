@@ -95,3 +95,10 @@ df = pd.read_sql('''
 	;
 ''', conn, index_col='rental_id', parse_dates=['rental_date', 'return_date'])
 ```
+
+## Numpy Introduction A
+NumPy is a numeric computing library, processing numbers and calculating with numbers.
+
+NumPy has limited scope.
+
+Python processing numeric numbers is slow when processing large amounts of data. 
