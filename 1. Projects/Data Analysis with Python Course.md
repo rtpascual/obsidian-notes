@@ -96,7 +96,7 @@ df = pd.read_sql('''
 ''', conn, index_col='rental_id', parse_dates=['rental_date', 'return_date'])
 ```
 
-## Numpy Introduction A
+## NumPy Introduction A
 NumPy is a numeric computing library, processing numbers and calculating with numbers.
 
 NumPy has limited scope.
@@ -105,11 +105,44 @@ Python processing numeric numbers is slow when processing large amounts of data.
 
 Usually don't use NumPy directly, matplotlib and pandas sit on top of NumPy.
 
-## Numpy Introduction B
+## NumPy Introduction B
 Regular Python stores more memory for a variable of integer type because it stores attributes as well for the variable that may not be necessary.
 
-In Numpy, you can control the size of the bits used for the integer.
+In NumPy, you can control the size of the bits used for the integer.
 
-Numpy is an array processing library.
+NumPy is an array processing library.
 
 Built-in data structures in Python are not optimized for high level computing.
+
+Main advantage is that NumPy takes advantage of CPU instructions.
+
+## NumPy Arrays
+Basic NumPy arrays:
+```python
+import numpy as np
+a = np.array([1, 2, 3])
+b = np.array([0., .5, 1., 1.5, 2.])
+```
+
+Can get elements by stating indices:
+```python
+import numpy as np
+b = np.array([0., .5, 1., 1.5, 2.])
+
+b[0], b[2], b[-1] # Returns (0.0, 1.0, 2.0)
+b([0, 2, -1]) # Returns NumPy array([0., 1., 2.])
+```
+
+Default NumPy array types and initializing with specific type:
+```python
+import numpy as np
+a = np.array([1, 2, 3])
+
+a.dtype # Returns int64 (default 64 if system is 64-bit)
+
+np.array([1, 2, 3, 4], dtype=np.float) # Creates NumPy array with float instead of int
+
+np.array([1, 2, 3, 4], dtype=int8) # Creates NumPy array with int8 instead of int64
+```
+
+NumPy stores numbers, dates, booleans. 
