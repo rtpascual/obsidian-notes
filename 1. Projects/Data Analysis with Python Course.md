@@ -131,8 +131,8 @@ import numpy as np
 
 b = np.array([0., .5, 1., 1.5, 2.])
 
-b[0], b[2], b[-1] # Returns (0.0, 1.0, 2.0)
-b([0, 2, -1]) # Returns NumPy array([0., 1., 2.])
+b[0], b[2], b[-1] 	# Returns (0.0, 1.0, 2.0)
+b([0, 2, -1]) 		# Returns NumPy array([0., 1., 2.])
 ```
 
 Default NumPy array types and initializing with specific type:
@@ -141,11 +141,11 @@ import numpy as np
 
 a = np.array([1, 2, 3])
 
-a.dtype # Returns int64 (default 64 if system is 64-bit)
+a.dtype 								# Returns int64 (default 64 if system is 64-bit)
 
-np.array([1, 2, 3, 4], dtype=np.float) # Creates NumPy array with float instead of int
+np.array([1, 2, 3, 4], dtype=np.float) 	# Creates NumPy array with float instead of int
 
-np.array([1, 2, 3, 4], dtype=int8) # Creates NumPy array with int8 instead of int64
+np.array([1, 2, 3, 4], dtype=int8) 		# Creates NumPy array with int8 instead of int64
 ```
 
 NumPy is usually used for numbers, dates, booleans in numeric processing.
@@ -161,8 +161,8 @@ A = np.array([
 ])
 
 A.shape # Returns (2,3)
-A.ndim # Returns 2
-A.size # Returns 6
+A.ndim 	# Returns 2
+A.size 	# Returns 6
 
 B = np.array([
 	[
@@ -176,8 +176,8 @@ B = np.array([
 ])
 
 B.shape # Returns (2, 2, 3)
-B.ndim # Returns 3
-B.size # Returns 12
+B.ndim 	# Returns 3
+B.size 	# Returns 12
 ```
 
 If multi-dimensional array is not done correctly, NumPy will fall back to Python object type.
@@ -192,16 +192,16 @@ A = np.array([
 	[7, 8, 9]
 ])
 
-A[1] # Returns array([4, 5, 6])
+A[1] 		# Returns array([4, 5, 6])
 
-A[1][0] # Returns 4
+A[1][0] 	# Returns 4
 
-A[1, 0] # Returns 4 as well, alternative to above
+A[1, 0] 	# Returns 4 as well, alternative to above
 
-A[0:2] 	# Returns array([
-		#				[1, 2, 3],
-		#				[4, 5, 6]
-		#			   ])
+A[0:2] 		# Returns array([
+			#				[1, 2, 3],
+			#				[4, 5, 6]
+			#			   ])
 		
 A[:, :2] 	# Returns every row, elements up to 2 index (0 and 1)
 		 	# array([
@@ -231,10 +231,10 @@ import numpy as np
 
 a = np.array([1, 2, 3, 4])
 
-a.sum() # Returns 10
-a.mean() # Returns 2.5
-a.std() # Returns 1.118033988749895
-a.var() # Returns 1.25
+a.sum() 		# Returns 10
+a.mean() 		# Returns 2.5
+a.std() 		# Returns 1.118033988749895
+a.var() 		# Returns 1.25
 
 A = np.array([
 	[1, 2, 3],
@@ -242,12 +242,12 @@ A = np.array([
 	[7, 8, 9]
 ])
 
-A.sum() # Returns 45
-A.mean() # Returns 5.0
-A.std() # Returns 2.581988897471611
+A.sum() 		# Returns 45
+A.mean() 		# Returns 5.0
+A.std() 		# Returns 2.581988897471611
 
-A.sum(axis=0) # Returns array([12, 15, 18])
-A.sum(axis=1) # Returns array([6, 15, 24])
+A.sum(axis=0) 	# Returns array([12, 15, 18])
+A.sum(axis=1) 	# Returns array([6, 15, 24])
 ```
 
 ## NumPy Operations
@@ -255,4 +255,25 @@ A.sum(axis=1) # Returns array([6, 15, 24])
 ```python
 import numpy as np
 
-a.
+a = np.arange(4) 	# a = array([0, 1, 2, 3])
+
+a + 10 				# Result is new array([10, 11, 12, 13])
+
+a * 10 				# Result is new array([0, 10, 20, 30])
+
+a += 100 			# a = array([100, 101, 102, 103])
+```
+
+NumPy also handles cases with multiple arrays
+
+```python
+import numpy as np
+
+a = np.arange(4) 				# a = array([0, 1, 2, 3])
+b = np.array([10, 10, 10, 10]) 	# b = array([10, 10, 10, 10])
+
+a + b 							# Result is array([10, 11, 12, 13])
+a * b 							# Result is array([0, 10, 20, 30])
+```
+
+## NumPy Boolean Arrays
