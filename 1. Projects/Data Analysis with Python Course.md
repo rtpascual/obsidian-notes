@@ -277,3 +277,20 @@ a * b 							# Result is array([0, 10, 20, 30])
 ```
 
 ## NumPy Boolean Arrays
+Also called masks.
+
+Can be used for filtering.
+
+```python
+import numpy as np
+
+a = np.arange(4) 				# a = array([0, 1, 2, 3])
+a[[True, False, False, True]] 	# Returns array([0, 3])
+a >= 2 							# Returns array([False, False, True, True])
+a[a >= 2] 						# Returns array([2, 3])
+a[a > a.mean()] 				# Returns array([2, 3])
+a[~(a> a.mean())] 				# Returns array([0, 1])
+a[(a == 0) | (a == 1)] 			# Returns array([0, 1])
+a[(a <= 2) & (a % 2 == 0)]		# Returns array([0, 2])
+```
+
