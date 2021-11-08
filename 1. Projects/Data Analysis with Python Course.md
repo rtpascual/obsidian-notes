@@ -101,4 +101,15 @@ NumPy is a numeric computing library, processing numbers and calculating with nu
 
 NumPy has limited scope.
 
-Python processing numeric numbers is slow when processing large amounts of data. 
+Python processing numeric numbers is slow when processing large amounts of data. NumPy is very efficient that sits on top of Python.
+
+Usually don't use NumPy directly, matplotlib and pandas sit on top of NumPy.
+
+## Numpy Introduction B
+Regular Python stores more memory for a variable of integer type because it stores attributes as well for the variable that may not be necessary.
+
+In Numpy, you can control the size of the bits used for the integer.
+
+Numpy is an array processing library.
+
+Built-in data structures in Python are not optimized for high level computing.
