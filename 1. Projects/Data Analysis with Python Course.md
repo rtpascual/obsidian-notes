@@ -120,6 +120,7 @@ Main advantage is that NumPy takes advantage of CPU instructions.
 Basic NumPy arrays:
 ```python
 import numpy as np
+
 a = np.array([1, 2, 3])
 b = np.array([0., .5, 1., 1.5, 2.])
 ```
@@ -127,6 +128,7 @@ b = np.array([0., .5, 1., 1.5, 2.])
 Can get elements by stating indices:
 ```python
 import numpy as np
+
 b = np.array([0., .5, 1., 1.5, 2.])
 
 b[0], b[2], b[-1] # Returns (0.0, 1.0, 2.0)
@@ -136,6 +138,7 @@ b([0, 2, -1]) # Returns NumPy array([0., 1., 2.])
 Default NumPy array types and initializing with specific type:
 ```python
 import numpy as np
+
 a = np.array([1, 2, 3])
 
 a.dtype # Returns int64 (default 64 if system is 64-bit)
@@ -151,6 +154,7 @@ It is possible to create matrices with NumPy. NumPy has a lot of attributes and 
 
 ```python
 import numpy as np
+
 A = np.array([
 	[1, 2, 3],
 	[4, 5, 6]
@@ -175,3 +179,19 @@ B.shape # Returns (2, 2, 3)
 B.ndim # Returns 3
 B.size # Returns 12
 ```
+
+If multi-dimensional array is not done correctly, NumPy will fall back to Python object type.
+
+Index and slice matrices:
+```python
+import numpy as np
+
+A = np.array([
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9]
+])
+
+A[1] # Returns array([4, 5, 6])
+A[1][0] # Returns 4
+A[1, 0] # Returns 4 as well
