@@ -182,7 +182,7 @@ B.size # Returns 12
 
 If multi-dimensional array is not done correctly, NumPy will fall back to Python object type.
 
-Index and slice matrices:
+### Index and Slice
 ```python
 import numpy as np
 
@@ -193,5 +193,66 @@ A = np.array([
 ])
 
 A[1] # Returns array([4, 5, 6])
+
 A[1][0] # Returns 4
-A[1, 0] # Returns 4 as well
+
+A[1, 0] # Returns 4 as well, alternative to above
+
+A[0:2] 	# Returns array([
+		#				[1, 2, 3],
+		#				[4, 5, 6]
+		#			   ])
+		
+A[:, :2] 	# Returns every row, elements up to 2 index (0 and 1)
+		 	# array([
+			#		[1, 2],
+			#		[4, 5],
+			#		[7, 8]
+			#	   ])
+
+A[1] = np.array([10, 10, 10])
+# A = 	array([
+#				[1, 2, 3],
+#				[10, 10, 10],
+#				[7, 8, 9]
+#			 ])
+
+A[2] = 99
+# A = 	array([
+#				[1, 2, 3],
+#				[10, 10, 10],
+#				[99, 99, 99]
+#			 ])
+```
+
+### Summary Statistics
+```python
+import numpy as np
+
+a = np.array([1, 2, 3, 4])
+
+a.sum() # Returns 10
+a.mean() # Returns 2.5
+a.std() # Returns 1.118033988749895
+a.var() # Returns 1.25
+
+A = np.array([
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9]
+])
+
+A.sum() # Returns 45
+A.mean() # Returns 5.0
+A.std() # Returns 2.581988897471611
+
+A.sum(axis=0) # Returns array([12, 15, 18])
+A.sum(axis=1) # Returns array([6, 15, 24])
+```
+
+## NumPy Operations
+### Broadcasting and Vectorized Operations
+```python
+import numpy as np
+
+a.
